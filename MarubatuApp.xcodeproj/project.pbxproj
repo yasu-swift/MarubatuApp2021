@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D92B482F2734E92000D9A74D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B482E2734E92000D9A74D /* AppDelegate.swift */; };
+		D92B48312734E92000D9A74D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B48302734E92000D9A74D /* SceneDelegate.swift */; };
+		D92B48332734E92000D9A74D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B48322734E92000D9A74D /* ViewController.swift */; };
+		D92B48362734E92000D9A74D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92B48342734E92000D9A74D /* Main.storyboard */; };
+		D92B48382734E92300D9A74D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D92B48372734E92300D9A74D /* Assets.xcassets */; };
+		D92B483B2734E92300D9A74D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92B48392734E92300D9A74D /* LaunchScreen.storyboard */; };
+		D92B48462734E92300D9A74D /* MarubatuAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B48452734E92300D9A74D /* MarubatuAppTests.swift */; };
+		D92B48502734E92300D9A74D /* MarubatuAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B484F2734E92300D9A74D /* MarubatuAppUITests.swift */; };
+		D92B48522734E92300D9A74D /* MarubatuAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B48512734E92300D9A74D /* MarubatuAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D92B48422734E92300D9A74D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D92B48232734E92000D9A74D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D92B482A2734E92000D9A74D;
+			remoteInfo = MarubatuApp;
+		};
+		D92B484C2734E92300D9A74D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D92B48232734E92000D9A74D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D92B482A2734E92000D9A74D;
+			remoteInfo = MarubatuApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D92B482B2734E92000D9A74D /* MarubatuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarubatuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92B482E2734E92000D9A74D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D92B48302734E92000D9A74D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D92B48322734E92000D9A74D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D92B48352734E92000D9A74D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D92B48372734E92300D9A74D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D92B483A2734E92300D9A74D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D92B483C2734E92300D9A74D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D92B48412734E92300D9A74D /* MarubatuAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarubatuAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92B48452734E92300D9A74D /* MarubatuAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarubatuAppTests.swift; sourceTree = "<group>"; };
+		D92B484B2734E92300D9A74D /* MarubatuAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarubatuAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92B484F2734E92300D9A74D /* MarubatuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarubatuAppUITests.swift; sourceTree = "<group>"; };
+		D92B48512734E92300D9A74D /* MarubatuAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarubatuAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D92B48282734E92000D9A74D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92B483E2734E92300D9A74D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92B48482734E92300D9A74D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D92B48222734E92000D9A74D = {
+			isa = PBXGroup;
+			children = (
+				D92B482D2734E92000D9A74D /* MarubatuApp */,
+				D92B48442734E92300D9A74D /* MarubatuAppTests */,
+				D92B484E2734E92300D9A74D /* MarubatuAppUITests */,
+				D92B482C2734E92000D9A74D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D92B482C2734E92000D9A74D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D92B482B2734E92000D9A74D /* MarubatuApp.app */,
+				D92B48412734E92300D9A74D /* MarubatuAppTests.xctest */,
+				D92B484B2734E92300D9A74D /* MarubatuAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D92B482D2734E92000D9A74D /* MarubatuApp */ = {
+			isa = PBXGroup;
+			children = (
+				D92B482E2734E92000D9A74D /* AppDelegate.swift */,
+				D92B48302734E92000D9A74D /* SceneDelegate.swift */,
+				D92B48322734E92000D9A74D /* ViewController.swift */,
+				D92B48342734E92000D9A74D /* Main.storyboard */,
+				D92B48372734E92300D9A74D /* Assets.xcassets */,
+				D92B48392734E92300D9A74D /* LaunchScreen.storyboard */,
+				D92B483C2734E92300D9A74D /* Info.plist */,
+			);
+			path = MarubatuApp;
+			sourceTree = "<group>";
+		};
+		D92B48442734E92300D9A74D /* MarubatuAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D92B48452734E92300D9A74D /* MarubatuAppTests.swift */,
+			);
+			path = MarubatuAppTests;
+			sourceTree = "<group>";
+		};
+		D92B484E2734E92300D9A74D /* MarubatuAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D92B484F2734E92300D9A74D /* MarubatuAppUITests.swift */,
+				D92B48512734E92300D9A74D /* MarubatuAppUITestsLaunchTests.swift */,
+			);
+			path = MarubatuAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D92B482A2734E92000D9A74D /* MarubatuApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D92B48552734E92300D9A74D /* Build configuration list for PBXNativeTarget "MarubatuApp" */;
+			buildPhases = (
+				D92B48272734E92000D9A74D /* Sources */,
+				D92B48282734E92000D9A74D /* Frameworks */,
+				D92B48292734E92000D9A74D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarubatuApp;
+			productName = MarubatuApp;
+			productReference = D92B482B2734E92000D9A74D /* MarubatuApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D92B48402734E92300D9A74D /* MarubatuAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D92B48582734E92300D9A74D /* Build configuration list for PBXNativeTarget "MarubatuAppTests" */;
+			buildPhases = (
+				D92B483D2734E92300D9A74D /* Sources */,
+				D92B483E2734E92300D9A74D /* Frameworks */,
+				D92B483F2734E92300D9A74D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D92B48432734E92300D9A74D /* PBXTargetDependency */,
+			);
+			name = MarubatuAppTests;
+			productName = MarubatuAppTests;
+			productReference = D92B48412734E92300D9A74D /* MarubatuAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D92B484A2734E92300D9A74D /* MarubatuAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D92B485B2734E92300D9A74D /* Build configuration list for PBXNativeTarget "MarubatuAppUITests" */;
+			buildPhases = (
+				D92B48472734E92300D9A74D /* Sources */,
+				D92B48482734E92300D9A74D /* Frameworks */,
+				D92B48492734E92300D9A74D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D92B484D2734E92300D9A74D /* PBXTargetDependency */,
+			);
+			name = MarubatuAppUITests;
+			productName = MarubatuAppUITests;
+			productReference = D92B484B2734E92300D9A74D /* MarubatuAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D92B48232734E92000D9A74D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D92B482A2734E92000D9A74D = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					D92B48402734E92300D9A74D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D92B482A2734E92000D9A74D;
+					};
+					D92B484A2734E92300D9A74D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D92B482A2734E92000D9A74D;
+					};
+				};
+			};
+			buildConfigurationList = D92B48262734E92000D9A74D /* Build configuration list for PBXProject "MarubatuApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D92B48222734E92000D9A74D;
+			productRefGroup = D92B482C2734E92000D9A74D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D92B482A2734E92000D9A74D /* MarubatuApp */,
+				D92B48402734E92300D9A74D /* MarubatuAppTests */,
+				D92B484A2734E92300D9A74D /* MarubatuAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D92B48292734E92000D9A74D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92B483B2734E92300D9A74D /* LaunchScreen.storyboard in Resources */,
+				D92B48382734E92300D9A74D /* Assets.xcassets in Resources */,
+				D92B48362734E92000D9A74D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92B483F2734E92300D9A74D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92B48492734E92300D9A74D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D92B48272734E92000D9A74D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92B48332734E92000D9A74D /* ViewController.swift in Sources */,
+				D92B482F2734E92000D9A74D /* AppDelegate.swift in Sources */,
+				D92B48312734E92000D9A74D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92B483D2734E92300D9A74D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92B48462734E92300D9A74D /* MarubatuAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92B48472734E92300D9A74D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92B48502734E92300D9A74D /* MarubatuAppUITests.swift in Sources */,
+				D92B48522734E92300D9A74D /* MarubatuAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D92B48432734E92300D9A74D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D92B482A2734E92000D9A74D /* MarubatuApp */;
+			targetProxy = D92B48422734E92300D9A74D /* PBXContainerItemProxy */;
+		};
+		D92B484D2734E92300D9A74D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D92B482A2734E92000D9A74D /* MarubatuApp */;
+			targetProxy = D92B484C2734E92300D9A74D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D92B48342734E92000D9A74D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D92B48352734E92000D9A74D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D92B48392734E92300D9A74D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D92B483A2734E92300D9A74D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D92B48532734E92300D9A74D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D92B48542734E92300D9A74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D92B48562734E92300D9A74D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarubatuApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasu.MarubatuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D92B48572734E92300D9A74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarubatuApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasu.MarubatuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D92B48592734E92300D9A74D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasu.MarubatuAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarubatuApp.app/MarubatuApp";
+			};
+			name = Debug;
+		};
+		D92B485A2734E92300D9A74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasu.MarubatuAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarubatuApp.app/MarubatuApp";
+			};
+			name = Release;
+		};
+		D92B485C2734E92300D9A74D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasu.MarubatuAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarubatuApp;
+			};
+			name = Debug;
+		};
+		D92B485D2734E92300D9A74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasu.MarubatuAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarubatuApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D92B48262734E92000D9A74D /* Build configuration list for PBXProject "MarubatuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92B48532734E92300D9A74D /* Debug */,
+				D92B48542734E92300D9A74D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D92B48552734E92300D9A74D /* Build configuration list for PBXNativeTarget "MarubatuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92B48562734E92300D9A74D /* Debug */,
+				D92B48572734E92300D9A74D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D92B48582734E92300D9A74D /* Build configuration list for PBXNativeTarget "MarubatuAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92B48592734E92300D9A74D /* Debug */,
+				D92B485A2734E92300D9A74D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D92B485B2734E92300D9A74D /* Build configuration list for PBXNativeTarget "MarubatuAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92B485C2734E92300D9A74D /* Debug */,
+				D92B485D2734E92300D9A74D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D92B48232734E92000D9A74D /* Project object */;
+}
