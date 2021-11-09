@@ -16,6 +16,7 @@
 		D92B48462734E92300D9A74D /* MarubatuAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B48452734E92300D9A74D /* MarubatuAppTests.swift */; };
 		D92B48502734E92300D9A74D /* MarubatuAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B484F2734E92300D9A74D /* MarubatuAppUITests.swift */; };
 		D92B48522734E92300D9A74D /* MarubatuAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92B48512734E92300D9A74D /* MarubatuAppUITestsLaunchTests.swift */; };
+		D9815A6A2736092E00939B1A /* AddQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9815A692736092E00939B1A /* AddQuestionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D92B484B2734E92300D9A74D /* MarubatuAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarubatuAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92B484F2734E92300D9A74D /* MarubatuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarubatuAppUITests.swift; sourceTree = "<group>"; };
 		D92B48512734E92300D9A74D /* MarubatuAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarubatuAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D9815A692736092E00939B1A /* AddQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				D92B482E2734E92000D9A74D /* AppDelegate.swift */,
 				D92B48302734E92000D9A74D /* SceneDelegate.swift */,
 				D92B48322734E92000D9A74D /* ViewController.swift */,
+				D9815A692736092E00939B1A /* AddQuestionViewController.swift */,
 				D92B48342734E92000D9A74D /* Main.storyboard */,
 				D92B48372734E92300D9A74D /* Assets.xcassets */,
 				D92B48392734E92300D9A74D /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				D92B48332734E92000D9A74D /* ViewController.swift in Sources */,
 				D92B482F2734E92000D9A74D /* AppDelegate.swift in Sources */,
+				D9815A6A2736092E00939B1A /* AddQuestionViewController.swift in Sources */,
 				D92B48312734E92000D9A74D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,6 +450,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +478,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
