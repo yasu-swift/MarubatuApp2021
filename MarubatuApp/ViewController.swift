@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         super.viewWillAppear(animated)
 
         let userDefaults = UserDefaults.standard
-        //"add"というキーで保存された値がなにかある -> 値をtaskArrayへ
+        //"add"というキーで保存された値がなにかある -> 値をquestionsへ
         if userDefaults.object(forKey: "add") != nil {
             questions = userDefaults.object(forKey: "add") as! [[String:Any]]
         }
@@ -106,10 +106,5 @@ class ViewController: UIViewController {
             return
         }
     }
-    
-    @IBAction func relord(_ sender: Any) {
-        viewDidLoad()
-    }
-    
     
 }

@@ -29,33 +29,30 @@ class AddQuestionViewController: UIViewController, UITextFieldDelegate {
         self.dismiss(animated: true, completion: nil)  //1つ前の画面に戻る
     }
     
-
-    
-    
     @IBAction func AddButton(_ sender: Any) {
         if AddQuestionText.text != "" {
-            var marubatuAnswer:Bool = true
+            var answer:Bool = true
             if SelectLabel.selectedSegmentIndex == 0 {
-                marubatuAnswer = false
+                answer = false
             } else {
-                marubatuAnswer = true
+                answer = true
             }
-            questions.append(["question":AddQuestionText.text!,"answer":marubatuAnswer])
+            questions.append(["question":AddQuestionText.text!,"answer":answer])
             let userDefaults = UserDefaults.standard
             userDefaults.set(questions,forKey: "add")
             AddQuestionText.text = ""
+            showAlert(message: "問題を保存しました")
             print(questions)
         } else {
-            showAlert(message: "未入力です")
+            showAlert(message: "問題が未入力です")
         }
     }
     
     @IBAction func DeleteButton(_ sender: Any) {
-        
-        let userDefaults = UserDefaults.standard
         questions = []
+        let userDefaults = UserDefaults.standard
         userDefaults.set(questions, forKey: "add")
-        showAlert(message: "すべて削除しました")
+        showAlert(message: "全て削除しました")
     }
     
     // アラートを表示する関数

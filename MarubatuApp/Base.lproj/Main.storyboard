@@ -68,25 +68,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o4W-5f-VTM">
-                                <rect key="frame" x="166.5" y="432.5" width="81.5" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="リロード"/>
-                                <connections>
-                                    <action selector="relord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JN3-Ur-vlU"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="rBj-vm-b0S" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="3iR-qq-pYp"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="08l-2x-yVD" secondAttribute="trailing" constant="20" id="5ne-Q8-6Ju"/>
-                            <constraint firstItem="o4W-5f-VTM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FVZ-56-wrR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yTI-9l-cb5" secondAttribute="trailing" constant="20" id="HBr-lX-oRN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="08l-2x-yVD" secondAttribute="bottom" constant="20" id="HLw-BM-74A"/>
                             <constraint firstItem="08l-2x-yVD" firstAttribute="leading" secondItem="gGU-MJ-og5" secondAttribute="trailing" constant="8" id="Nd1-bK-0Hq"/>
-                            <constraint firstItem="o4W-5f-VTM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q4L-Ep-LVg"/>
                             <constraint firstItem="rBj-vm-b0S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jLH-KY-LRM"/>
                             <constraint firstItem="gGU-MJ-og5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jSy-wW-622"/>
                             <constraint firstItem="08l-2x-yVD" firstAttribute="width" secondItem="gGU-MJ-og5" secondAttribute="width" id="mfb-sY-xvw"/>
@@ -108,13 +98,13 @@
         <!--Add Question View Controller-->
         <scene sceneID="ql4-c1-z5l">
             <objects>
-                <viewController id="BO1-ef-6MC" customClass="AddQuestionViewController" customModule="MarubatuApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BO1-ef-6MC" customClass="AddQuestionViewController" customModule="MarubatuApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="veI-Ip-BsR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="問題を入力して下さい" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cXh-b5-ke2">
-                                <rect key="frame" x="20" y="401" width="374" height="40"/>
+                                <rect key="frame" x="20" y="428" width="374" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="fuO-JR-MCJ"/>
                                 </constraints>
@@ -122,7 +112,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4h-xf-WNi">
-                                <rect key="frame" x="20" y="8" width="374" height="40"/>
+                                <rect key="frame" x="20" y="52" width="374" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="U8f-yl-U9g"/>
                                 </constraints>
@@ -133,7 +123,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6I-Hf-0Tu">
-                                <rect key="frame" x="20" y="696" width="374" height="31"/>
+                                <rect key="frame" x="20" y="750" width="374" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="保存"/>
                                 <connections>
@@ -141,7 +131,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZlB-Ia-lJ7">
-                                <rect key="frame" x="20" y="767" width="374" height="31"/>
+                                <rect key="frame" x="20" y="821" width="374" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="問題を全て削除">
                                     <color key="baseForegroundColor" red="0.92133218049999999" green="0.03448458158" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -151,7 +141,7 @@
                                 </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ycu-GW-4lp">
-                                <rect key="frame" x="142" y="471" width="130" height="51"/>
+                                <rect key="frame" x="142" y="498" width="130" height="51"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="ZnB-8C-zq0"/>
                                     <constraint firstAttribute="height" constant="50" id="a41-mA-PsR"/>
