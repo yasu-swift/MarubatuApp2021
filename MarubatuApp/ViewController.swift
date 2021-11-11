@@ -8,40 +8,58 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+
     @IBOutlet weak var questionLabel: UILabel!
     
     // 表示中の問題番号を格納
     var currentQuestionNum: Int = 0
+    var questions: [[String:Any]] = []
     
-    let questions: [[String: Any]] = [
-        [
-            "question": "iPhoneアプリを開発する統合環境はZcodeである",
-            "answer": false
-        ],
-        [
-            "question": "Xcode画面の右側にはユーティリティーズがある",
-            "answer": true
-        ],
-        [
-            "question": "UILabelは文字列を表示する際に利用する",
-            "answer": true
-        ]
-    ]
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        questions = []
+        let userDefaults = UserDefaults.standard
+        if userDefaults.object(forKey: "add") != nil{
+            questions = userDefaults.object(forKey: "add") as! [[String: Any]]
+        }
+        showQuestion()
+    }
     
-    // 問題を表示する関数
-    func showQuestion() {
-        let question = questions[currentQuestionNum]
+    // 繰り返し処理する
+    override func viewWillAppear(_ animated: Bool) {
         
-        if let que = question["question"] as? String {
-            questionLabel.text = que
+        super.viewWillAppear(animated)
+
+        let userDefaults = UserDefaults.standard
+        //"add"というキーで保存された値がなにかある -> 値をquestionsへ
+        if userDefaults.object(forKey: "add") != nil {
+            questions = userDefaults.object(forKey: "add") as! [[String:Any]]
+        }
+        showQuestion()
+    }
+
+    func showQuestion(){
+        if questions.isEmpty == true {
+            //問題文が無い時
+            questionLabel.text = "問題がありません"
+        } else {
+            //問題文が有る時
+            let question = questions[currentQuestionNum]
+            if let que = question["question"] as? String {
+                //問題文の表示
+                questionLabel.text = que
+            }
         }
     }
     
     // 回答をチェックする関数
     // 正解なら次の問題を表示します
     func checkAnswer(yourAnswer: Bool) {
+        if questions.isEmpty == true{
+            
+        } else {
         let question = questions[currentQuestionNum]
+        
         if let ans = question["answer"] as? Bool {
             if yourAnswer == ans {
                 // 正解
@@ -62,6 +80,7 @@ class ViewController: UIViewController {
         // 問題を表示します。
         // 正解であれば次の問題が、不正解であれば同じ問題が再表示されます。
         showQuestion()
+        }
     }
     
     // アラートを表示する関数
@@ -72,20 +91,20 @@ class ViewController: UIViewController {
         present(alert, animated: true, completion: nil)
     }
 
-
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        showQuestion()
-    }
-    
     @IBAction func yesButton(_ sender: UIButton) {
-        checkAnswer(yourAnswer: false)
+        if questions.isEmpty != true {
+        checkAnswer(yourAnswer: true)
+        } else {
+            return
+        }
     }
     
     @IBAction func noButton(_ sender: UIButton) {
-        checkAnswer(yourAnswer: true)
+        if questions.isEmpty != true{
+        checkAnswer(yourAnswer: false)
+        } else {
+            return
+        }
     }
+    
 }
-
